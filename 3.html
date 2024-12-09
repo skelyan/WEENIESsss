@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style3.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div
+      class="backgroundBox center-content-bottom"
+      id="myDiv"
+      onclick="changeBack()"
+    >
+      <img
+        src="images/inve.png"
+        class="contain-imageend"
+        id="inve"
+        onclick="nextEscapeRoomPage()"
+        style="display: none"
+      />
+    </div>
+
+    <div class="modal center-content" id="myModal2">
+      <!-- this is the "X" button to close the modal -->
+      <span class="close" style="" onclick="hideModal2()">&times;</span>
+      <!-- this is a new blank canvas for you to build -->
+      <!-- the content of your modal pop-up! -->
+      <img src="images/marnietext2.png" onclick="" class="" />
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="preload.js"></script>
+</html>
